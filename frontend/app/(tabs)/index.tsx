@@ -9,7 +9,7 @@ export default function HomeScreen() {
   const [message, setMessage] = useState<string>("Loading...");
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/api/hello/")
+    axios.get("http://217.154.6.124:8000/api/hello/")
       .then(response => setMessage(response.data.message))
       .catch(error => {
         console.error("Error fetching data:", error);
