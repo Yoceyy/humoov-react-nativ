@@ -1,0 +1,22 @@
+# Python
+*.pyc
+__pycache__/
+
+# Django
+db.sqlite3
+*.log
+
+# Environnements virtuels
+env/
+venv/
+*.env
+
+# IDE configuration files
+.vscode/
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Migrations (optionnel, si tu ne veux pas les versionner)
+# migrations/

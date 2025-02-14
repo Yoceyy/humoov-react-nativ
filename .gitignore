@@ -1,0 +1,23 @@
+# Fichiers de configuration des IDE
+.vscode/
+.idea/
+
+# Node modules et dépendances frontend
+frontend/node_modules/
+frontend/.expo/
+
+# Environnements virtuels (si tu en as un à la racine)
+env/
+venv/
+venv-django5/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Build et dist
+frontend/build/
+frontend/dist/
+
+# Cache et fichiers temporaires
+frontend/.expo/
